@@ -8,16 +8,42 @@ import herodata from './herolist2.json'
 
 export default function App() {
     const [enemyTeam, setenemyTeam] = useState([{ name: 'Anti-Mage', image: 'alchemist' }]);
-    const [yourTeam, setyourTeam] = useState([{ name: 'Anti-Mage', image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/alchemist.png'}]);
-    const [resultList, setresultList] = useState([{ name: 'Anti-Mage', image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/alchemist.png'}])
+    const [yourTeam, setyourTeam] = useState([{ name: 'Anti-Mage', image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/alchemist.png' }]);
+    const [resultList, setresultList] = useState([{ name: 'Anti-Mage', image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/alchemist.png' }])
     const [selectedEnemy, setselectedEnemy] = useState(null)
     // let herolist = JSON.parse(herodata);
     const [heroList, setheroList] = useState(herodata)
 
     function Value_change(itemValue) {
         setselectedEnemy(itemValue);
-        setenemyTeam([...enemyTeam, { name: itemValue, image:'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/alchemist.png'}]);
+        setenemyTeam([...enemyTeam, { name: itemValue, image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/' + convertname(itemValue) + '.png' }]);
         setheroList(heroList.filter(hero => hero.localized_name !== itemValue))
+        // alert('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/' + convertname(itemValue) + '.png')
+    }
+    function convertname(local_name) {
+        let arr = local_name.split(" ")
+        if (arr.length === 2) {
+            // arr[0][1]=arr[0][1].toLowerCase()
+            // arr[1][0]=arr[1][0].toLowerCase()
+            if (arr[0].toLowerCase() + arr[1].toLowerCase() === "nature'sprophet")
+                return ('furion')
+            if (arr[0].toLowerCase() + arr[1].toLowerCase() === "shadowfiend")
+                return ('nevermore')
+            if (arr[0].toLowerCase() + arr[1].toLowerCase() === "drowranger")
+                return ('drow_ranger')
+            if (arr[0].toLowerCase() + arr[1].toLowerCase() === "crystalmaiden")
+                return ('crystal_maiden')
+            return (arr[0].toLowerCase() + arr[1].toLowerCase())
+        }
+        else if (arr.length === 1) {
+            // arr[0][1]=arr[0][1].toLowerCase()
+            return (arr[0].toLowerCase())
+        }
+        else {
+            return (null)
+        }
+
+
     }
 
     return (
@@ -35,7 +61,7 @@ export default function App() {
                                                 <View>
                                                     <Image
                                                         style={styles.image}
-                                                        source={{uri:'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/'+hero.image+'.png'}}
+                                                        source={{ uri: hero.image }}
                                                     />
                                                 </View>
                                                 <View>
@@ -50,7 +76,7 @@ export default function App() {
                         <Picker
                             style={styles.picker}
                             selectedValue={selectedEnemy}
-                            onValueChange={(itemValue)=>Value_change(itemValue)}>
+                            onValueChange={(itemValue) => Value_change(itemValue)}>
                             {
                                 heroList.map(hero => {
                                     return (<Picker.Item label={hero.localized_name} value={hero.localized_name} key={hero.id} />)
@@ -70,7 +96,7 @@ export default function App() {
                                             <View>
                                                 <Image
                                                     style={styles.image}
-                                                    source={{uri:hero.image}}
+                                                    source={{ uri: hero.image }}
                                                 />
                                             </View>
                                             <View>
@@ -93,7 +119,7 @@ export default function App() {
                                     <View>
                                         <Image
                                             style={styles.image}
-                                            source={{uri:hero.image}}
+                                            source={{ uri: hero.image }}
                                         />
                                     </View>
                                     <View>
