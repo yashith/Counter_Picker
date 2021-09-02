@@ -7,16 +7,16 @@ import herodata from './herolist2.json'
 
 
 export default function App() {
-    const [enemyTeam, setenemyTeam] = useState([{ name: 'Anti-Mage', image: require('./assets/Anti-Mage_icon.png') }]);
-    const [yourTeam, setyourTeam] = useState([{ name: 'Anti-Mage', image: require('./assets/Anti-Mage_icon.png') }]);
-    const [resultList, setresultList] = useState([{ name: 'Anti-Mage', image: require('./assets/Anti-Mage_icon.png') }])
+    const [enemyTeam, setenemyTeam] = useState([{ name: 'Anti-Mage', image: 'alchemist' }]);
+    const [yourTeam, setyourTeam] = useState([{ name: 'Anti-Mage', image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/alchemist.png'}]);
+    const [resultList, setresultList] = useState([{ name: 'Anti-Mage', image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/alchemist.png'}])
     const [selectedEnemy, setselectedEnemy] = useState(null)
     // let herolist = JSON.parse(herodata);
     const [heroList, setheroList] = useState(herodata)
 
     function Value_change(itemValue) {
         setselectedEnemy(itemValue);
-        setenemyTeam([...enemyTeam, { name: itemValue, image: require('./assets/Anti-Mage_icon.png') }]);
+        setenemyTeam([...enemyTeam, { name: itemValue, image:'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/alchemist.png'}]);
         setheroList(heroList.filter(hero => hero.localized_name !== itemValue))
     }
 
@@ -35,7 +35,7 @@ export default function App() {
                                                 <View>
                                                     <Image
                                                         style={styles.image}
-                                                        source={hero.image}
+                                                        source={{uri:'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/'+hero.image+'.png'}}
                                                     />
                                                 </View>
                                                 <View>
@@ -70,7 +70,7 @@ export default function App() {
                                             <View>
                                                 <Image
                                                     style={styles.image}
-                                                    source={hero.image}
+                                                    source={{uri:hero.image}}
                                                 />
                                             </View>
                                             <View>
@@ -93,7 +93,7 @@ export default function App() {
                                     <View>
                                         <Image
                                             style={styles.image}
-                                            source={hero.image}
+                                            source={{uri:hero.image}}
                                         />
                                     </View>
                                     <View>
