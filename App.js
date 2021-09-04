@@ -7,7 +7,8 @@ import herodata from './herolist2.json'
 
 
 export default function App() {
-    const [enemyTeam, setenemyTeam] = useState([{ name: 'Anti-Mage', image: 'alchemist' }]);
+    const [enemyTeam, setenemyTeam] = useState(); 
+    // [{ name: 'Anti-Mage', image: 'alchemist' }]
     const [yourTeam, setyourTeam] = useState([{ name: 'Anti-Mage', image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/alchemist.png' }]);
     const [resultList, setresultList] = useState([{ name: 'Anti-Mage', image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/alchemist.png' }])
     const [selectedEnemy, setselectedEnemy] = useState(null)
@@ -16,7 +17,12 @@ export default function App() {
 
     function Value_change(itemValue) {
         setselectedEnemy(itemValue);
-        setenemyTeam([...enemyTeam, { name: itemValue, image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/' + convertname(itemValue) + '.png' }]);
+        let en = heroList.filter(hero => hero.localized_name == itemValue)
+        en[0].image= 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/' + convertname(itemValue) + '.png';
+        
+        // setenemyTeam([...enemyTeam, { name: itemValue, image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/' + convertname(itemValue) + '.png' }]);
+        setenemyTeam((enemyTeam)=>{[...enemyTeam,en[0]]})
+       
         setheroList(heroList.filter(hero => hero.localized_name !== itemValue))
         // alert('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/' + convertname(itemValue) + '.png')
     }
@@ -53,7 +59,8 @@ export default function App() {
                     <View style={styles.Table_col}>
                         <Text style={{ color: 'white' }}> Enemy Team</Text>
                         <View style={styles.Table_items}>
-                            {
+                            {   
+                                (enemyTeam)?
                                 enemyTeam.map((hero, i) => {
                                     return (
                                         <Card key={i} containerStyle={styles.card_style}>
@@ -65,12 +72,14 @@ export default function App() {
                                                     />
                                                 </View>
                                                 <View>
-                                                    <Text>{hero.name}</Text>
+                                                    <Text>{hero.localized_name}</Text>
                                                 </View>
                                             </View>
                                         </Card>
+                                        
                                     )
                                 })
+                                :<View></View>
                             }
                         </View>
                         <Picker

@@ -10,7 +10,8 @@
             "Escape",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 1,
@@ -25,7 +26,8 @@
             "Jungler",
             "Carry"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 2,
@@ -39,7 +41,8 @@
             "Nuker",
             "Durable"
         ],
-        "legs": 4
+        "legs": 4,
+        "image": null
     },
     {
         "id": 3,
@@ -54,7 +57,8 @@
             "Nuker",
             "Initiator"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 4,
@@ -68,7 +72,8 @@
             "Nuker",
             "Jungler"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 5,
@@ -81,7 +86,8 @@
             "Disabler",
             "Pusher"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 6,
@@ -95,7 +101,8 @@
             "Disabler",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 7,
@@ -108,7 +115,8 @@
             "Pusher",
             "Escape"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 8,
@@ -123,7 +131,8 @@
             "Nuker",
             "Disabler"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 9,
@@ -138,7 +147,8 @@
             "Nuker",
             "Disabler"
         ],
-        "legs": 0
+        "legs": 0,
+        "image": null
     },
     {
         "id": 10,
@@ -150,7 +160,8 @@
             "Carry",
             "Nuker"
         ],
-        "legs": 0
+        "legs": 0,
+        "image": null
     },
     {
         "id": 11,
@@ -164,7 +175,8 @@
             "Pusher",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 12,
@@ -178,7 +190,8 @@
             "Escape",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 13,
@@ -192,7 +205,8 @@
             "Durable",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 14,
@@ -206,7 +220,8 @@
             "Nuker",
             "Pusher"
         ],
-        "legs": 0
+        "legs": 0,
+        "image": null
     },
     {
         "id": 15,
@@ -222,7 +237,8 @@
             "Escape",
             "Jungler"
         ],
-        "legs": 6
+        "legs": 6,
+        "image": null
     },
     {
         "id": 16,
@@ -237,7 +253,8 @@
             "Initiator",
             "Disabler"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 17,
@@ -252,7 +269,8 @@
             "Durable",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 18,
@@ -268,7 +286,8 @@
             "Durable",
             "Disabler"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 19,
@@ -283,7 +302,8 @@
             "Nuker",
             "Escape"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 20,
@@ -298,7 +318,8 @@
             "Escape",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 21,
@@ -310,7 +331,8 @@
             "Nuker",
             "Carry"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 22,
@@ -326,7 +348,8 @@
             "Durable",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 23,
@@ -340,7 +363,8 @@
             "Nuker",
             "Disabler"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 24,
@@ -354,7 +378,8 @@
             "Nuker",
             "Initiator"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 25,
@@ -369,7 +394,8 @@
             "Nuker",
             "Initiator"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 26,
@@ -384,7 +410,8 @@
             "Disabler",
             "Escape"
         ],
-        "legs": 0
+        "legs": 0,
+        "image": null
     },
     {
         "id": 27,
@@ -399,7 +426,8 @@
             "Nuker",
             "Carry"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 28,
@@ -412,7 +440,8 @@
             "Nuker",
             "Disabler"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 29,
@@ -424,7 +453,8 @@
             "Support",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 30,
@@ -437,7 +467,8 @@
             "Escape",
             "Disabler"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 31,
@@ -451,7 +482,8 @@
             "Initiator",
             "Pusher"
         ],
-        "legs": 0
+        "legs": 0,
+        "image": null
     },
     {
         "id": 32,
@@ -464,7 +496,8 @@
             "Nuker",
             "Pusher"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 33,
@@ -476,7 +509,8 @@
             "Carry",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 34,
@@ -490,7 +524,8 @@
             "Durable",
             "Disabler"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 35,
@@ -503,7 +538,8 @@
             "Initiator",
             "Disabler"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 36,
@@ -517,7 +553,8 @@
             "Durable",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 37,
@@ -530,7 +567,8 @@
             "Nuker",
             "Escape"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 38,
@@ -545,7 +583,8 @@
             "Pusher",
             "Disabler"
         ],
-        "legs": 0
+        "legs": 0,
+        "image": null
     },
     {
         "id": 39,
@@ -560,7 +599,8 @@
             "Escape",
             "Durable"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 40,
@@ -575,7 +615,8 @@
             "Disabler",
             "Initiator"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 41,
@@ -589,7 +630,8 @@
             "Nuker",
             "Disabler"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 42,
@@ -601,7 +643,8 @@
             "Carry",
             "Escape"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 43,
@@ -613,7 +656,8 @@
             "Nuker",
             "Pusher"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 44,
@@ -625,7 +669,8 @@
             "Carry",
             "Escape"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 45,
@@ -639,7 +684,8 @@
             "Initiator",
             "Disabler"
         ],
-        "legs": 0
+        "legs": 0,
+        "image": null
     },
     {
         "id": 46,
@@ -652,7 +698,8 @@
             "Nuker",
             "Pusher"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 47,
@@ -668,7 +715,8 @@
             "Initiator",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 48,
@@ -681,7 +729,8 @@
             "Nuker",
             "Disabler"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 49,
@@ -695,7 +744,8 @@
             "Durable",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 50,
@@ -710,7 +760,8 @@
             "Pusher",
             "Disabler"
         ],
-        "legs": 4
+        "legs": 4,
+        "image": null
     },
     {
         "id": 51,
@@ -725,7 +776,8 @@
             "Escape",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 52,
@@ -740,7 +792,8 @@
             "Escape",
             "Disabler"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 53,
@@ -754,7 +807,8 @@
             "Escape",
             "Disabler"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 54,
@@ -767,7 +821,8 @@
             "Escape",
             "Pusher"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 55,
@@ -780,7 +835,8 @@
             "Durable",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 56,
@@ -795,7 +851,8 @@
             "Durable",
             "Disabler"
         ],
-        "legs": 4
+        "legs": 4,
+        "image": null
     },
     {
         "id": 57,
@@ -808,7 +865,8 @@
             "Durable",
             "Initiator"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 58,
@@ -823,7 +881,8 @@
             "Disabler",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 59,
@@ -837,7 +896,8 @@
             "Escape",
             "Nuker"
         ],
-        "legs": 8
+        "legs": 8,
+        "image": null
     },
     {
         "id": 60,
@@ -849,7 +909,8 @@
             "Escape",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 61,
@@ -861,7 +922,8 @@
             "Carry",
             "Escape"
         ],
-        "legs": 4
+        "legs": 4,
+        "image": null
     },
     {
         "id": 62,
@@ -875,7 +937,8 @@
             "Pusher",
             "Disabler"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 63,
@@ -889,7 +952,8 @@
             "Disabler",
             "Escape"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 64,
@@ -902,7 +966,8 @@
             "Jungler",
             "Pusher"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 65,
@@ -915,7 +980,8 @@
             "Durable",
             "Escape"
         ],
-        "legs": 0
+        "legs": 0,
+        "image": null
     },
     {
         "id": 66,
@@ -928,7 +994,8 @@
             "Disabler",
             "Nuker"
         ],
-        "legs": 0
+        "legs": 0,
+        "image": null
     },
     {
         "id": 67,
@@ -943,7 +1010,8 @@
             "Durable",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 68,
@@ -957,7 +1025,8 @@
             "Durable",
             "Disabler"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 69,
@@ -972,7 +1041,8 @@
             "Durable",
             "Escape"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 70,
@@ -985,7 +1055,8 @@
             "Nuker",
             "Disabler"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 71,
@@ -1001,7 +1072,8 @@
             "Initiator",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 72,
@@ -1016,7 +1088,8 @@
             "Escape",
             "Pusher"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 73,
@@ -1031,7 +1104,8 @@
             "Initiator",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 74,
@@ -1044,7 +1118,8 @@
             "Nuker",
             "Disabler"
         ],
-        "legs": 4
+        "legs": 4,
+        "image": null
     },
     {
         "id": 75,
@@ -1059,7 +1134,8 @@
             "Durable",
             "Escape"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 76,
@@ -1074,7 +1150,8 @@
             "Disabler",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 77,
@@ -1088,7 +1165,8 @@
             "Initiator",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 78,
@@ -1102,7 +1180,8 @@
             "Jungler",
             "Durable"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 79,
@@ -1117,7 +1196,8 @@
             "Pusher",
             "Initiator"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 80,
@@ -1133,7 +1213,8 @@
             "Initiator",
             "Pusher"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 81,
@@ -1148,7 +1229,8 @@
             "Disabler",
             "Escape"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 82,
@@ -1163,7 +1245,8 @@
             "Durable",
             "Initiator"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 83,
@@ -1177,7 +1260,8 @@
             "Disabler",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 84,
@@ -1190,7 +1274,8 @@
             "Disabler",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 85,
@@ -1204,7 +1289,8 @@
             "Nuker",
             "Initiator"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 86,
@@ -1218,7 +1304,8 @@
             "Initiator",
             "Escape"
         ],
-        "legs": 6
+        "legs": 6,
+        "image": null
     },
     {
         "id": 87,
@@ -1234,7 +1321,8 @@
             "Initiator",
             "Escape"
         ],
-        "legs": 0
+        "legs": 0,
+        "image": null
     },
     {
         "id": 88,
@@ -1248,7 +1336,8 @@
             "Disabler",
             "Jungler"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 89,
@@ -1261,7 +1350,8 @@
             "Escape",
             "Nuker"
         ],
-        "legs": 0
+        "legs": 0,
+        "image": null
     },
     {
         "id": 90,
@@ -1276,7 +1366,8 @@
             "Disabler",
             "Pusher"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 91,
@@ -1290,7 +1381,8 @@
             "Disabler",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 92,
@@ -1303,7 +1395,8 @@
             "Disabler",
             "Durable"
         ],
-        "legs": 0
+        "legs": 0,
+        "image": null
     },
     {
         "id": 93,
@@ -1317,7 +1410,8 @@
             "Disabler",
             "Durable"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 94,
@@ -1332,7 +1426,8 @@
             "Nuker",
             "Escape"
         ],
-        "legs": 4
+        "legs": 4,
+        "image": null
     },
     {
         "id": 95,
@@ -1346,7 +1441,8 @@
             "Nuker",
             "Escape"
         ],
-        "legs": 4
+        "legs": 4,
+        "image": null
     },
     {
         "id": 96,
@@ -1359,7 +1455,8 @@
             "Durable",
             "Escape"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 97,
@@ -1373,7 +1470,8 @@
             "Initiator",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 98,
@@ -1386,7 +1484,8 @@
             "Disabler",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 99,
@@ -1399,7 +1498,8 @@
             "Nuker",
             "Disabler"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 100,
@@ -1412,7 +1512,8 @@
             "Carry",
             "Durable"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 101,
@@ -1426,7 +1527,8 @@
             "Nuker",
             "Durable"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 102,
@@ -1441,7 +1543,8 @@
             "Durable",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 103,
@@ -1453,7 +1556,8 @@
             "Nuker",
             "Disabler"
         ],
-        "legs": 6
+        "legs": 6,
+        "image": null
     },
     {
         "id": 104,
@@ -1468,7 +1572,8 @@
             "Disabler",
             "Initiator"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 105,
@@ -1483,7 +1588,8 @@
             "Initiator",
             "Durable"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 106,
@@ -1498,7 +1604,8 @@
             "Durable",
             "Escape"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 107,
@@ -1511,7 +1618,8 @@
             "Pusher",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 108,
@@ -1526,7 +1634,8 @@
             "Escape",
             "Disabler"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 109,
@@ -1540,7 +1649,8 @@
             "Disabler",
             "Escape"
         ],
-        "legs": 0
+        "legs": 0,
+        "image": null
     },
     {
         "id": 110,
@@ -1553,7 +1663,8 @@
             "Disabler",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 111,
@@ -1566,7 +1677,8 @@
             "Escape",
             "Nuker"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 112,
@@ -1580,7 +1692,8 @@
             "Disabler",
             "Initiator"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 113,
@@ -1594,7 +1707,8 @@
             "Disabler",
             "Escape"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 114,
@@ -1610,7 +1724,8 @@
             "Escape",
             "Initiator"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 115,
@@ -1624,7 +1739,8 @@
             "Disabler",
             "Escape"
         ],
-        "legs": 0
+        "legs": 0,
+        "image": null
     },
     {
         "id": 116,
@@ -1638,7 +1754,8 @@
             "Escape",
             "Disabler"
         ],
-        "legs": 4
+        "legs": 4,
+        "image": null
     },
     {
         "id": 117,
@@ -1652,7 +1769,8 @@
             "Nuker",
             "Disabler"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 118,
@@ -1666,7 +1784,8 @@
             "Disabler",
             "Escape"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 119,
@@ -1680,7 +1799,8 @@
             "Disabler",
             "Durable"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     },
     {
         "id": 120,
@@ -1692,6 +1812,7 @@
             "Carry",
             "Durable"
         ],
-        "legs": 2
+        "legs": 2,
+        "image": null
     }
 ]
