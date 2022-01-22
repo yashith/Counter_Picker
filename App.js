@@ -59,27 +59,6 @@ export default function App() {
                     <List title="Enemy team" styles={styles} team={yourTeam} setteam={setyourTeam} selected={selectedYour} setSelected={setselectedYour} heroList={heroList} Value_change={Value_change} />
                 </View>
             </View>
-            {/* <View style={styles.result_list_wrapper}>
-                {
-                    resultList.map((hero, i) => {
-                        return (
-                            <Card key={i} containerStyle={styles.result_card}>
-                                <View style={styles.incard_layout}>
-                                    <View>
-                                        <Image
-                                            style={styles.image}
-                                            source={{ uri: hero.image }}
-                                        />
-                                    </View>
-                                    <View>
-                                        <Text>{hero.name}</Text>
-                                    </View>
-                                </View>
-                            </Card>
-                        )
-                    })
-                }
-            </View> */}
             
             <StatusBar style="auto" />
         </SafeAreaView>
