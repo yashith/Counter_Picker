@@ -5,33 +5,31 @@ import { Card } from 'react-native-elements';
 import { Button } from 'react-native-elements/dist/buttons/Button';
 import { color } from 'react-native-elements/dist/helpers';
 import herodata from './herolist2.json'
-
+import List from './Components/List';
 
 export default function App() {
     const [enemyTeam, setenemyTeam] = useState([]);
-    // [{ name: 'Anti-Mage', image: 'alchemist' }]
-    const [yourTeam, setyourTeam] = useState([{ name: 'Anti-Mage', image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/alchemist.png' }]);
+    const [yourTeam, setyourTeam] = useState([]);
     const [resultList, setresultList] = useState([{ name: 'Anti-Mage', image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/alchemist.png' }])
     const [selectedEnemy, setselectedEnemy] = useState(null)
-    // let herolist = JSON.parse(herodata);
+    const [selectedYour, setselectedYour] = useState(null)
     const [heroList, setheroList] = useState(herodata)
 
-    function Value_change(itemValue) {
-        setselectedEnemy(itemValue);
+    function Value_change(itemValue,selected,team,setteam) {
+        selected(itemValue);
         let en = heroList.filter(hero => hero.localized_name == itemValue)
         en[0].image = 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/' + convertname(itemValue) + '.png';
 
-        // setenemyTeam([...enemyTeam, { name: itemValue, image: 'https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/' + convertname(itemValue) + '.png' }]);
-        (enemyTeam) ? setenemyTeam([...enemyTeam, en[0]]) : setenemyTeam([en[0]])
+        
+        // (enemyTeam) ? setenemyTeam([...enemyTeam, en[0]]) : setenemyTeam([en[0]])
+        (team) ? setteam([...team, en[0]]) : setteam([en[0]])
 
         setheroList(heroList.filter(hero => hero.localized_name !== itemValue))
-        // alert('https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/' + convertname(itemValue) + '.png')
+       
     }
     function convertname(local_name) {
         let arr = local_name.split(" ")
         if (arr.length === 2) {
-            // arr[0][1]=arr[0][1].toLowerCase()
-            // arr[1][0]=arr[1][0].toLowerCase()
             if (arr[0].toLowerCase() + arr[1].toLowerCase() === "nature'sprophet")
                 return ('furion')
             if (arr[0].toLowerCase() + arr[1].toLowerCase() === "shadowfiend")
@@ -57,75 +55,11 @@ export default function App() {
         <SafeAreaView style={styles.container}>
             <View style={styles.Table_area}>
                 <View style={styles.Table}>
-                    <View style={styles.Table_col}>
-                        <Text style={{ color: 'white' }}> Enemy Team</Text>
-                        <View style={styles.Table_items}>
-                            {
-                                (enemyTeam) ?
-                                    enemyTeam.map((hero, i) => {
-                                        return (
-                                            <Card key={i} containerStyle={styles.card_style}>
-                                                <View style={styles.incard_layout}>
-                                                    <View>
-                                                        <Image
-                                                            style={styles.image}
-                                                            source={{ uri: hero.image }}
-                                                        />
-                                                    </View>
-                                                    <View>
-                                                        <Text>{hero.localized_name}</Text>
-                                                    </View>
-                                                </View>
-                                            </Card>
-
-                                        )
-                                    })
-                                    : <View></View>
-                            }
-                        </View>
-                        <Picker
-                            style={styles.picker}
-                            selectedValue={selectedEnemy}
-                            onValueChange={(itemValue) => Value_change(itemValue)}>
-                            {
-                                heroList.map(hero => {
-                                    return (<Picker.Item label={hero.localized_name} value={hero.localized_name} key={hero.id} />)
-                                })
-                            }
-                            {/* <Picker.Item label="Test" value='test'/>
-              <Picker.Item label="Test2" value='test2'/> */}
-                        </Picker>
-                        <Button
-                            title="Outline button"
-                            type="Clear"
-                            onPress={()=>{setenemyTeam([])}}
-                        />
-                    </View>
-                    <View style={styles.Table_col}>
-                        <Text style={{ color: 'white' }}>Your Team</Text>
-                        {
-                            yourTeam.map((hero, i) => {
-                                return (
-                                    <Card key={i} containerStyle={styles.card_style}>
-                                        <View style={styles.incard_layout}>
-                                            <View>
-                                                <Image
-                                                    style={styles.image}
-                                                    source={{ uri: hero.image }}
-                                                />
-                                            </View>
-                                            <View>
-                                                <Text>{hero.name}</Text>
-                                            </View>
-                                        </View>
-                                    </Card>
-                                )
-                            })
-                        }
-                    </View>
+                    <List title="Your team" styles={styles} team={enemyTeam} setteam={setenemyTeam} selected={selectedEnemy} setSelected={setselectedEnemy} heroList={heroList} Value_change={Value_change} />
+                    <List title="Enemy team" styles={styles} team={yourTeam} setteam={setyourTeam} selected={selectedYour} setSelected={setselectedYour} heroList={heroList} Value_change={Value_change} />
                 </View>
             </View>
-            <View style={styles.result_list_wrapper}>
+            {/* <View style={styles.result_list_wrapper}>
                 {
                     resultList.map((hero, i) => {
                         return (
@@ -145,7 +79,8 @@ export default function App() {
                         )
                     })
                 }
-            </View>
+            </View> */}
+            
             <StatusBar style="auto" />
         </SafeAreaView>
     );
